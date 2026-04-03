@@ -2,9 +2,11 @@ import './style.css'
 import './components/header.css'
 import './components/hero.css'
 import './components/social-proof.css'
+import './components/features.css'
 import { createHeader, initHeader } from './components/header.js'
 import { createHero } from './components/hero.js'
 import { createSocialProof } from './components/social-proof.js'
+import { createFeatures } from './components/features.js'
 
 /**
  * Initialize the Calm.com mock application
@@ -19,6 +21,7 @@ export function initApp() {
       <main class="main">
         ${createHero()}
         ${createSocialProof()}
+        ${createFeatures()}
       </main>
     </div>
   `
