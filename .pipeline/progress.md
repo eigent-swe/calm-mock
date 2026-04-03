@@ -11,7 +11,7 @@
 | Issue | Title | Status | Merge SHA |
 |-------|-------|--------|-----------|
 | #4 | Header navigation | DONE | ed07685 |
-| #5 | Hero section | NOT STARTED | - |
+| #5 | Hero section | DONE | deef533 |
 | #6 | Social proof bar | NOT STARTED | - |
 | #7 | Feature sections | NOT STARTED | - |
 | #8 | Testimonials | NOT STARTED | - |
