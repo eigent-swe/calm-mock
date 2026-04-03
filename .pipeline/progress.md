@@ -10,7 +10,7 @@
 ## Feature Issues
 | Issue | Title | Status | Merge SHA |
 |-------|-------|--------|-----------|
-| #4 | Header navigation | NOT STARTED | - |
+| #4 | Header navigation | DONE | ed07685 |
 | #5 | Hero section | NOT STARTED | - |
 | #6 | Social proof bar | NOT STARTED | - |
 | #7 | Feature sections | NOT STARTED | - |
