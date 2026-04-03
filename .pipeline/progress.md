@@ -3,7 +3,7 @@
 ## Foundation Issues
 | Issue | Title | Status | Merge SHA |
 |-------|-------|--------|-----------|
-| #1 | CI/CD setup + scaffolding | NOT STARTED | - |
+| #1 | CI/CD setup + scaffolding | DONE | fe8c5d9 |
 | #2 | Fetch website assets | NOT STARTED | - |
 | #3 | Docker setup | NOT STARTED | - |
 
