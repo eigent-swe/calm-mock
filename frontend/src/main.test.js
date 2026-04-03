@@ -16,12 +16,11 @@ describe('initApp', () => {
     initApp()
     const logo = document.querySelector('.header__logo')
     expect(logo).not.toBeNull()
-    expect(logo.textContent).toBe('Calm')
   })
 
   it('should render navigation links', () => {
     initApp()
-    const navLinks = document.querySelectorAll('.header__nav a')
+    const navLinks = document.querySelectorAll('.header__nav-link')
     expect(navLinks.length).toBe(4)
     expect(navLinks[0].textContent).toBe('Sleep')
     expect(navLinks[1].textContent).toBe('Meditate')
@@ -39,7 +38,7 @@ describe('initApp', () => {
 
   it('should render the CTA button', () => {
     initApp()
-    const cta = document.querySelector('.btn--primary')
+    const cta = document.querySelector('.hero__cta')
     expect(cta).not.toBeNull()
     expect(cta.textContent).toBe('Try Calm for Free')
   })

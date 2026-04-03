@@ -1,4 +1,6 @@
 import './style.css'
+import './components/header.css'
+import { createHeader, initHeader } from './components/header.js'
 
 /**
  * Initialize the Calm.com mock application
@@ -9,24 +11,20 @@ export function initApp() {
 
   app.innerHTML = `
     <div class="calm-app">
-      <header class="header">
-        <div class="header__logo">Calm</div>
-        <nav class="header__nav">
-          <a href="#sleep">Sleep</a>
-          <a href="#meditate">Meditate</a>
-          <a href="#music">Music</a>
-          <a href="#body">Body</a>
-        </nav>
-      </header>
+      ${createHeader()}
       <main class="main">
-        <section class="hero">
-          <h1>Meet Calm</h1>
-          <p>The #1 app for sleep, meditation, and relaxation.</p>
-          <a href="#signup" class="btn btn--primary">Try Calm for Free</a>
+        <section class="hero" id="hero">
+          <div class="hero__content">
+            <h1 class="hero__title">Meet Calm</h1>
+            <p class="hero__subtitle">The #1 app for sleep, meditation, and relaxation.</p>
+            <a href="#signup" class="btn btn--primary hero__cta">Try Calm for Free</a>
+          </div>
         </section>
       </main>
     </div>
   `
+
+  initHeader()
 }
 
 // Auto-initialize when DOM is ready
