@@ -1,6 +1,6 @@
 """Calm.com mock backend API."""
 from typing import Optional
-from fastapi import FastAPI, Query
+from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
 from app.data import ARTICLES, FEATURES, TESTIMONIALS, PRICING
 
@@ -35,7 +35,7 @@ def get_article(slug: str) -> dict:
     """Get a single article by slug."""
     article = next((a for a in ARTICLES if a["slug"] == slug), None)
     if article is None:
-        return {"error": "Article not found"}
+        raise HTTPException(status_code=404, detail="Article not found")
     return {"article": article}
 
 
