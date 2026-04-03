@@ -4,11 +4,13 @@ import './components/hero.css'
 import './components/social-proof.css'
 import './components/features.css'
 import './components/testimonials.css'
+import './components/pricing.css'
 import { createHeader, initHeader } from './components/header.js'
 import { createHero } from './components/hero.js'
 import { createSocialProof } from './components/social-proof.js'
 import { createFeatures } from './components/features.js'
 import { createTestimonials } from './components/testimonials.js'
+import { createPricing } from './components/pricing.js'
 
 /**
  * Initialize the Calm.com mock application
@@ -25,6 +27,7 @@ export function initApp() {
         ${createSocialProof()}
         ${createFeatures()}
         ${createTestimonials()}
+        ${createPricing()}
       </main>
     </div>
   `
