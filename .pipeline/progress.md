@@ -18,4 +18,4 @@
 | #9 | Pricing/CTA section | DONE | 6a413f3 |
 | #10 | Footer | DONE | f03b380 |
 | #11 | Backend API | DONE | 22f8014 |
-| #12 | API integration + polish | NOT STARTED | - |
+| #12 | API integration + polish | DONE | f190dd7 |
