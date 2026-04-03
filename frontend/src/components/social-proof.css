@@ -1,0 +1,60 @@
+/* Social Proof Bar */
+.social-proof {
+  background: var(--color-light-bg);
+  padding: 40px 32px;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.social-proof__inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+  flex-wrap: wrap;
+}
+
+.social-proof__stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 4px;
+}
+
+.social-proof__icon {
+  font-size: 24px;
+  margin-bottom: 4px;
+}
+
+.social-proof__value {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--color-primary);
+  line-height: 1.2;
+}
+
+.social-proof__label {
+  font-size: 14px;
+  color: var(--color-text-light);
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .social-proof {
+    padding: 32px 20px;
+  }
+
+  .social-proof__inner {
+    gap: 24px;
+  }
+
+  .social-proof__stat {
+    min-width: 120px;
+  }
+
+  .social-proof__value {
+    font-size: 22px;
+  }
+}
