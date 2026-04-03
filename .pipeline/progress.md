@@ -13,7 +13,7 @@
 | #4 | Header navigation | DONE | ed07685 |
 | #5 | Hero section | DONE | deef533 |
 | #6 | Social proof bar | DONE | e68644b |
-| #7 | Feature sections | NOT STARTED | - |
+| #7 | Feature sections | DONE | 523d638 |
 | #8 | Testimonials | NOT STARTED | - |
 | #9 | Pricing/CTA section | NOT STARTED | - |
 | #10 | Footer | NOT STARTED | - |
