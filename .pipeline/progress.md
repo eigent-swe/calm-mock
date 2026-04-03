@@ -4,7 +4,7 @@
 | Issue | Title | Status | Merge SHA |
 |-------|-------|--------|-----------|
 | #1 | CI/CD setup + scaffolding | DONE | fe8c5d9 |
-| #2 | Fetch website assets | NOT STARTED | - |
+| #2 | Fetch website assets | DONE | d80ded2 |
 | #3 | Docker setup | NOT STARTED | - |
 
 ## Feature Issues
