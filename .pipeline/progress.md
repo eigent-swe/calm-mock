@@ -16,6 +16,6 @@
 | #7 | Feature sections | DONE | 523d638 |
 | #8 | Testimonials | DONE | 477eff1 |
 | #9 | Pricing/CTA section | DONE | 6a413f3 |
-| #10 | Footer | NOT STARTED | - |
+| #10 | Footer | DONE | f03b380 |
 | #11 | Backend API | NOT STARTED | - |
 | #12 | API integration + polish | NOT STARTED | - |
