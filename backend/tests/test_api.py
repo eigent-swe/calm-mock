@@ -49,11 +49,11 @@ def test_get_article_by_slug():
 
 
 def test_get_article_not_found():
-    """Should return error for non-existent slug."""
+    """Should return 404 for non-existent slug."""
     response = client.get("/api/articles/nonexistent")
-    assert response.status_code == 200
+    assert response.status_code == 404
     data = response.json()
-    assert "error" in data
+    assert "detail" in data
 
 
 def test_get_features():
